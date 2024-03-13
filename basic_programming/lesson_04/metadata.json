@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/classwork1303/Main01.java",
+    "code/classwork1303/Main02.java",
+    "code/classwork1303/Main03.java",
+    "code/classwork1303/Main04.java",
+    "code/classwork1303/Main05.java",
+    "code/classwork1303/Main06.java"
+  ]
+}
