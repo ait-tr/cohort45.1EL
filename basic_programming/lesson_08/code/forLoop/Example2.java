@@ -28,6 +28,17 @@ public class Example2 {
             System.out.println(text.charAt(i));
         }
 
+        // ---- с помощью цикла WHILE ------
+
+        int counter = 0;
+
+        while (counter < textSize) {
+            char currentChar = text.charAt(counter);
+            System.out.println("Буква с индексом " + counter + " : " + currentChar);
+            counter++;
+        }
+
+
 
     }
 }
