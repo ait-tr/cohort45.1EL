@@ -35,7 +35,7 @@ public class Main {
         String[] currencies = {"EURO", "USD", "TL"};
         while (true) {
             printMenu(currencies);
-            int initialCurrency = (int)readNumber("", 1, currencies.length);
+            int initialCurrency = (int)readNumber("", 0, currencies.length);
             if (initialCurrency == 0) {
                 return;
             }
