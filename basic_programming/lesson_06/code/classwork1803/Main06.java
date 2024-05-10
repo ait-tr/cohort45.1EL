@@ -11,9 +11,9 @@ public class Main06 {
         float num = scanner.nextFloat();
 
         if ((int)num == num) { // num % 1 == 0
-            System.out.println("Whole");
+            System.out.println("Whole"); // целое
         } else {
-            System.out.println("Fractional");
+            System.out.println("Fractional"); // нецелое
         }
     }
 }

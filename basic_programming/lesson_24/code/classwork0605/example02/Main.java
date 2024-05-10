@@ -14,7 +14,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Dog pet1 = new Dog("Richard", 6, "Golden retriever", 15, 50, DogProfession.DOMESTIC);
+        Pet pet1 = new Dog("Richard", 6, "Golden retriever", 15, 50, DogProfession.DOMESTIC);
         Pet pet2 = new Cat("Vasya", 4, "Sphinks", 1.5, false);
 
         voice(pet1);
