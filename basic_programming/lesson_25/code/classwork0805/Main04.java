@@ -1,3 +1,5 @@
+package classwork0805;
+
 public class Main04 {
     public static void main(String[] args) {
         String s1 = new String("Hello");

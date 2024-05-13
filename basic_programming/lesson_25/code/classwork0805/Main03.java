@@ -1,3 +1,5 @@
+package classwork0805;
+
 import java.util.Arrays;
 
 public class Main03 {

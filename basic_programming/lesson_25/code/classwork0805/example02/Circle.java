@@ -1,4 +1,4 @@
-package example02;
+package classwork0805.example02;
 
 public class Circle implements Shape {
     private double r;

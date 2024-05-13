@@ -1,4 +1,4 @@
-package example01;
+package classwork0805.example01;
 
 public abstract class Pet {
     private String name;

@@ -1,4 +1,4 @@
-package example01;
+package classwork0805.example01;
 
 public class Dog extends Pet implements Voiceable, Petable, Walkable {
     public Dog(String name, int age) {
