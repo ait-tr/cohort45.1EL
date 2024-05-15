@@ -10,11 +10,33 @@ public class StringUtilsImpl implements StringUtils {
         //return word.equalsIgnoreCase(new StringBuilder(word).reverse().toString());
     }
 
+    // The quick brown fox jumps over lazy dog
     @Override
     public boolean isPangram(String sentence) {
-        return false;
+        sentence = sentence.toLowerCase();
+        boolean[] found = new boolean[26];
+        for (int i = 0; i < sentence.length(); i++) {
+            int code = sentence.charAt(i) - 'a';
+            if (code >= 0 && code < 26) {
+                found[code] = true;
+            }
+        }
+        for (int i = 0; i < found.length; i++) {
+            if (!found[i]) {
+                return false;
+            }
+        }
+        return true;
     }
-
+    /*
+        Читает строку в которой записан IPv4 и возвращает массив из 4 значений типа byte со значениями этого айпи
+        Для этого сначала нужно разделить строку на подстроки по КАКОМУ-ТО признаку
+        (намек на то что вам нужно понять, по какому именно),
+        а потом использовать класс Byte чтобы превратить строки в числа.
+        Выбросить исключение, если на любом этапе работы метода была ошибка в введенных данных.
+        Примеры айпи: 127.0.0.1, 192.168.0.12, 77.156.21.33
+        Обратите внимание, что в результате могут выйти отрицательные числа. Это вполне нормально (см. тему "целочисленное переполнение")
+     */
     @Override
     public byte[] parseIp(String ip) {
         return new byte[0];
@@ -100,7 +122,7 @@ public class StringUtilsImpl implements StringUtils {
         for (int i = words.length - 1; i >= 0; i--) {
             sb.append(words[i]).append(" ");
         }
-        return sb.toString();
+        return sb.toString().trim();
     }
 
     /*
