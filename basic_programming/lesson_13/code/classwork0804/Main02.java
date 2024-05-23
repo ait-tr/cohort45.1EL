@@ -13,7 +13,7 @@ public class Main02 {
         int roll = 1 + random.nextInt(6);
 
         return roll;
-        //return Main04.getRandomNumber(1, 6);
+        //return classwork0805.Main04.getRandomNumber(1, 6);
     }
 
     public static void main(String[] args) {

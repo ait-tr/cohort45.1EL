@@ -29,4 +29,9 @@ public class Dog extends Pet {
     public void setDogProfession(DogProfession dogProfession) {
         this.dogProfession = dogProfession;
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
