@@ -21,7 +21,7 @@ public class CarApp {
         // System.out.println(car.countCar);
         // Обращаться к статическим полям нужно только от имени класса
 
-        Car car2 = new Car("staticDemo.Car", 140);
+        Car car2 = new Car("staticDemo.anonimous.Car", 140);
         System.out.println(car2.getModel());
         System.out.println(car2.getPower());
 
