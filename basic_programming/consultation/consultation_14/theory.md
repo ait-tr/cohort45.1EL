@@ -337,6 +337,7 @@ Java Collections Framework (JCF) предоставляет несколько �
 
 <img src="https://raw.githubusercontent.com/ait-tr/cohort41/main/basic_programming/lesson_37/img/CollectionSB.jpeg" width="100%">
 
+<img src="https://i.postimg.cc/7YKQHwWG/Collection-labled.jpg" width="100%">
 
 ### Основные интерфейсы и их реализации в JCF:
 
